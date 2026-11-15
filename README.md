@@ -26,3 +26,13 @@ This project is a Java Spring Boot application designed to automate and manage e
 * REST API
 
 This system ensures fair seating, easy monitoring, and effective exam room management. Ideal for institutions seeking an automated and user-friendly exam seating solution.
+
+# Local Run
+
+The project defaults to an in-memory H2 database for local startup so it can run without a MySQL server. To start it locally:
+
+```bash
+./mvnw spring-boot:run
+```
+
+For a MySQL-backed setup, set the DB environment variables before starting the app.
